@@ -256,12 +256,12 @@ return [
         'submenu' => [
             [
                 'text' => '- Cadastrar Cidade',
-                'url'  => 'ingressos/create',
+                'url'  => 'cidades/create',
                 'icon' =>'',
             ],
             [
                 'text' => '- Consultar Cidades',
-                'url'  => 'ingressos',
+                'url'  => 'cidades',
                 'icon' =>'',
             ],
     ],

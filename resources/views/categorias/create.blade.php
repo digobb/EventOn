@@ -13,10 +13,12 @@
     @endif
 
  {!! Form::open(['route'=>'categorias.store']) !!}
-<div class="form-group">
+ <div class="form-row">
+<div class="col-md-4 mb-3">
     {!! Form::label('categoria', 'Categoria:')!!}
-    {!! Form::text('categoria', null, ['class'=>'form-control', 'required']) !!}
+    {!! Form::text('categoria', null, ['class'=>'form-control', 'required', 'placeholder'=>'Digite uma nova Categoria']) !!}
 </div>
+ </div>
 <div class="form-group">
     {!! Form::submit('Adicionar Categoria', ['class'=>'btn bg-gradient-success']) !!}
     {!! Form::reset('Limpar', ['class'=>'btn bg-gradient-info']) !!}
