@@ -126,9 +126,9 @@ return [
     'classes_content_wrapper' => '',
     'classes_content_header' => '',
     'classes_content' => '',
-    'classes_sidebar' => 'sidebar-dark-primary elevation-4',
+    'classes_sidebar' => 'sidebar-light-primary elevation-4',
     'classes_sidebar_nav' => '',
-    'classes_topnav' => 'navbar-white navbar-light',
+    'classes_topnav' => 'navbar-primary navbar-dark',
     'classes_topnav_nav' => 'navbar-expand',
     'classes_topnav_container' => 'container',
 
@@ -231,12 +231,77 @@ return [
     */
 
     'menu' => [
-    ['header'=> 'Atores'],
+    ['header'=> 'MENU'],
     [
-        'text'=> 'Listagem',
-        'url' => 'atores',
+        'text'=> 'Clientes',
+        //'url' => 'clientes',
         'icon' => 'fas fa-fw fa-users',
+        'submenu' => [
+            [
+                'text' => '- Cadastrar Cliente',
+                'url'  => 'clientes/create',
+                'icon' =>'',
+            ],
+            [
+                'text' => '- Consultar Clientes',
+                'url'  => 'clientes',
+                'icon' =>'',
+            ],
     ],
+],
+    [
+        'text' => 'Cidades',
+        'url' => 'cidades',
+        'icon' => 'fas fa-city',
+        'submenu' => [
+            [
+                'text' => '- Cadastrar Cidade',
+                'url'  => 'ingressos/create',
+                'icon' =>'',
+            ],
+            [
+                'text' => '- Consultar Cidades',
+                'url'  => 'ingressos',
+                'icon' =>'',
+            ],
+    ],
+],
+
+[
+    'text'    => 'Ingressos',
+    'icon'    => 'fas fa-ticket-alt',
+    'submenu' => [
+        [
+            'text' => '- Cadastrar Ingresso',
+            'url'  => 'ingressos/create',
+            'icon' =>'',
+        ],
+        [
+            'text' => '- Consultar Ingressos',
+            'url'  => 'ingressos',
+            'icon' =>'',
+        ],
+        [
+            'text'    => 'Categorias',
+            'icon' => 'fas fa-ticket-alt',
+            'submenu' => [
+                [
+                    'text'    => '- Cadastrar Categoria',
+                    'url'     => 'categorias/create',
+                    'icon' => '',
+                ],
+                [
+                    'text' => '- Consulta de Categorias',
+                    'url'  => 'categorias',
+                    'icon' => '',
+                ],
+            ],
+        ],
+    ],
+],
+],
+
+
         /*[
             'text' => 'search',
             'search' => true,
@@ -320,8 +385,7 @@ return [
             'url'        => '#',
         ],
         */
-    ],
-    
+
 
     /*
     |--------------------------------------------------------------------------

@@ -64,7 +64,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #117009;
   text-align: left;
   background-color: #ffffff;
 }
@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #6200ff;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2576,7 +2576,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #1272d8;
   border-color: #007bff;
   box-shadow: none;
 }
@@ -3430,7 +3430,7 @@ input[type="button"].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #f9f8fa;
 }
 
 .dropdown-item.active, .dropdown-item:active {
