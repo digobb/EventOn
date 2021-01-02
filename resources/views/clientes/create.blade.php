@@ -40,7 +40,7 @@
 </div>
 <h3>Ingresso</h3>
 <hr size="10">
-<div class="form-group col-md-6">
+<div class="form-group col-md-5">
     {!! Form::label('ingresso_id', 'Ingresso:') !!}
     {!! Form::select('ingresso_id',
                      \App\Ingresso::orderBy('descricao')->pluck('descricao', 'id')->toArray(),

@@ -277,7 +277,7 @@ return [
             'icon' =>'',
         ],
         [
-            'text' => '- Consultar Ingressos',
+            'text' => '- Consulta de Ingressos',
             'url'  => 'ingressos',
             'icon' =>'',
         ],

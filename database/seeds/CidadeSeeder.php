@@ -18,5 +18,7 @@ class CidadeSeeder extends Seeder
         Cidade::create(['nomeCidade'=>'Soledade', 'cep'=>'98807045', 'uf'=>'RS']);
         Cidade::create(['nomeCidade'=>'Carazinho', 'cep'=>'99500-000', 'uf'=>'RS']);
         Cidade::create(['nomeCidade'=>'Passo Fundo', 'cep'=>'99010-130', 'uf'=>'RS']);
+        Cidade::create(['nomeCidade'=>'Casca', 'cep'=>'99260-000', 'uf'=>'RS']);
+        Cidade::create(['nomeCidade'=>'Ijuí', 'cep'=>'98750000', 'uf'=>'RS']);
     }
 }
